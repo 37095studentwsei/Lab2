@@ -4,7 +4,6 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <Button fx:id="btnMain" layoutX="274.0" layoutY="188.0" mnemonicParsing="false" onAction="#onBtnAction" text="Kliknij Mnie !" textFill="RED">
@@ -12,5 +11,6 @@
             <Font size="17.0" />
          </font>
       </Button>
+      <TextField fx:id="txtLicznik" layoutX="274.0" layoutY="188.0" prefHeight="0.0" prefWidth="15.0" />
    </children>
 </AnchorPane>

@@ -11,6 +11,9 @@ public class HelloController {
     int clickCounter = 0;
     public void onBtnAction(ActionEvent actionEvent){
         System.out.println("Kliikniecie nr" + ++clickCounter);
+
+        if (clickCounter == 1)
+            btnMain.setText("I jeszcze raz");
     }
 
 
